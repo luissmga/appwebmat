@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background-color:  #040505;
+    max-width: 200px;
+    margin: auto;
+    border: 2px solid  #02fcfc;
+    border-radius: 40px;
+    padding: 20px;
+    transition: .3s;
+    text-align: center;
+}
+
+.container :hover{
+    border-top: 8px solid #070808;
+    box-shadow: 0 0 10px  #19efef;
+    scale: 1.05;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color:  #08f227;
+    color: #ffffff;
+    text-transform: capitalize;
+    
+    
+    cursor: pointer;
+}
